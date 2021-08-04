@@ -22,7 +22,7 @@ struct ContentView: View {
                     TextField("Enter email", text: $txtEmail)
                     SecureField("Enter password", text: $txtPassword)
                 }
-                .padding()
+                .padding(EdgeInsets(top: 170, leading: 0, bottom: 50, trailing: 0))
                 
                 NavigationLink(destination: SecondView(), tag: 1, selection: $selection) {
                     Button(action: {
