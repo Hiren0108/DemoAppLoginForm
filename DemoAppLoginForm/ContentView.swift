@@ -52,9 +52,6 @@ struct ContentView: View {
          
         
     }
-    func getNext() -> some View{
-        return SecondView()
-    }
 }
 
 struct ContentView_Previews: PreviewProvider {
