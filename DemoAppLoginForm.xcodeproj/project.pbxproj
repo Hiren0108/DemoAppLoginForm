@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC205D3626BC160C007ABB56 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC205D3526BC160C007ABB56 /* LoginView.swift */; };
 		AC9B88CE26B946B600BC382B /* DemoAppLoginFormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B88CD26B946B600BC382B /* DemoAppLoginFormApp.swift */; };
 		AC9B88D026B946B600BC382B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B88CF26B946B600BC382B /* ContentView.swift */; };
 		AC9B88D226B946B900BC382B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9B88D126B946B900BC382B /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC205D3526BC160C007ABB56 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		AC9B88CA26B946B600BC382B /* DemoAppLoginForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAppLoginForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9B88CD26B946B600BC382B /* DemoAppLoginFormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppLoginFormApp.swift; sourceTree = "<group>"; };
 		AC9B88CF26B946B600BC382B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				AC9B88D626B946B900BC382B /* Info.plist */,
 				AC9B88D326B946B900BC382B /* Preview Content */,
 				AC9B88E726B973BE00BC382B /* SecondView.swift */,
+				AC205D3526BC160C007ABB56 /* LoginView.swift */,
 			);
 			path = DemoAppLoginForm;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				AC9B88E826B973BE00BC382B /* SecondView.swift in Sources */,
 				AC9B88D026B946B600BC382B /* ContentView.swift in Sources */,
+				AC205D3626BC160C007ABB56 /* LoginView.swift in Sources */,
 				AC9B88CE26B946B600BC382B /* DemoAppLoginFormApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
